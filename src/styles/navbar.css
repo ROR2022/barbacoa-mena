@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+.nav-cont
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10vw;
+    margin-left: 7vw;
+    /* background: #434750; */
+    font-size: 4.5vw;
+}
+#home{ --i:9; }
+#menu{ --i:8; }
+#pedido{ --i:7; }
+#galeria{ --i:6; }
+#ubicacion{ --i:5; }
+#telefono{ --i:4; }
+#watsupp{ --i:3; }
+#facebook{ --i:2; }
+#mail{ --i:1; }
+.mi-ul 
+{
+    position: relative;
+    transform: skewY(-15deg);
+}
+.grupo
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.icono
+{
+    width: 7vw;
+    height: 7vw;
+    margin-right: 1vw;
+}
+.mi-ul .mi-li 
+{
+    position: relative;
+    list-style: none;
+    width: 25vw;
+    background: #3e3f46;
+    padding: 3.5vw;
+    z-index: var(--i);
+    transition: 0.5s;
+    display: block;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.mi-ul .mi-li:hover
+{
+    background: #33a3ee;
+    transform: translate(50px);
+    color: #fff;
+}
+.mi-ul .mi-li::before
+{
+    content: '';
+    position: absolute;
+    top: -0.5vw;
+    left: -4vw;
+    width: 4vw;
+    height: 15vw;
+    background:  #2e3133; 
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+}
+.mi-ul .mi-li:hover::before
+{
+    background: #1f5378;
+}
+.mi-ul .mi-li::after
+{
+    content: '';
+    position: absolute;
+    top: -4vw;
+    left: 0vw;
+    width: 32vw;
+    height: 4vw;
+    background:  #35383e;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
+.mi-ul .mi-li:hover::after
+{
+    background: #2982b9;
+}
+/* .mi-ul .mi-li:last-child::after
+{
+    box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+} */
+
+@media screen and (min-width:760px) {
+    .nav-cont{
+        font-size: 5vw;
+        width: 25vw;
+    }
+    .mi-ul .mi-li{
+        width: 25vw;
+    }
+}
+

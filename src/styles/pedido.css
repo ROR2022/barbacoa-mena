@@ -1,0 +1,102 @@
+
+.ped-cont
+{
+    position: absolute;
+    top: 40vw;
+    left: 40vw;
+    width: 58vw;   
+}
+
+.formulario{
+    max-width: 95%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 2vw;
+    box-shadow: 0 0 2vw .5vw #A04000;
+    position: relative;
+    background: transparent;
+}
+.formulario__titulo, .servicio {
+    text-align: center;
+    font: bold 5.5vw cursive;
+    margin-top: 0;
+    margin-bottom: 8vw;
+    color: #641E16;
+}
+.formulario__input, .formulario__label{
+    display: block;
+    width: 90%;
+    font-size: 4.5vw;
+    
+}
+.formulario__input{
+    padding: 3.5vw;
+    background: transparent;
+    border: .1vw solid #641E16;
+    margin-bottom: 6vw;
+}
+.formulario__input:focus{
+    outline: .1vw solid rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to bottom, transparent, #a04000);
+}
+.formulario__input:focus + .formulario__label{
+    margin-top: -25vw;
+}
+.formulario__label{
+    padding-left: 5vw;
+    position: absolute;
+    margin-top: -15vw;
+    z-index: -20;
+    color: #641E16;
+    transition: all 0.2s;
+}
+.fijar{
+    margin-top: -25vw;
+}
+.tipo_pedido {
+    display: block;
+    width: 100%;
+    font-size: 4.5vw;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #641E16;
+    margin-bottom: 10vw;
+}
+.direc
+{
+    display: none;
+}
+
+.mistacos
+{
+    display: block;
+    font-size: 4vw;
+    margin-top: -5vw;
+    margin-left: 1vw;
+    text-align: center;
+}
+.cuantos
+{
+    width: 5vw;
+    margin-left: 1vw;
+    font-size: 3vw;
+}
+.agregar 
+{
+    display: none;
+    font-size: 4vw;
+    font-family: cursive;
+    color: #641E16;
+}
+.miboton
+{
+    margin-left: 5vw;
+    margin-top: 2vw;
+    color: #999;
+    background: #3e3f46;
+}
+.caja1
+{
+    display: flex;
+    margin-top: 2vw;
+}

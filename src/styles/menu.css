@@ -1,0 +1,82 @@
+
+
+.menu-cont
+{
+    position: absolute;
+    top: 40vw;
+    left: 40vw;
+    width: 58vw;
+    background: #a04000;
+    border-radius: 10vw;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo-menu
+{
+    width: 30vw;
+    border-radius: 50%;
+    margin-left: 12vw;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+}
+
+.tc1
+{
+    font-size: 4.2vw;
+    text-align: left;
+    margin-left: 2%;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+.tacos, .tacos2
+{
+    background: #ffc300;
+    width: 90%;
+    margin-left: 2%;
+    font-size: 2.8vw;
+    border-radius: 2vw;
+    text-align: center;
+    font-weight: 300;
+    box-shadow: 5px 5px 5px #FF000090;
+    letter-spacing: .2vw;
+}
+.tacos2
+{
+    font-size: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.precios1, .precios2
+{
+    color: #a04000;
+    
+    font-size: 5vw;
+    -webkit-text-stroke: 1px #FF000090;
+}
+.precios2
+{
+    font-size: 7vw;
+}
+.bebidas
+{
+    text-align: left;
+}
+.domi
+{
+    margin-top: 35vw;
+}
+
+@media screen and (min-width:500px) {
+    .domi{
+        margin-top: 65vw;
+    }
+    
+}
+
+@media screen and (min-width:700px) {
+    .domi{
+        margin-top: 95vw;
+    }
+    
+}

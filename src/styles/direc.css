@@ -1,0 +1,43 @@
+
+
+.direc-cont{
+    width: 100vw;
+    margin-top: 15vw;
+}
+
+
+.domicilio {
+    margin: 2vw 0;
+    font-size: 5vw;
+    text-align: center;
+    font-family: monospace;
+    color: #641E16;
+    
+    transform-origin: top center;
+    animation-name: swing;
+    animation-duration: 1s;
+}
+
+@media screen and (min-width:530px){
+    .direc-cont{
+        margin-top: 40vw;
+    }
+    
+    
+}
+
+@media screen and (min-width:800px){
+    .direc-cont{
+        margin-top: 60vw;
+    }
+    
+    
+}
+
+@media screen and (min-width:1100px){
+    .direc-cont{
+        margin-top: 70vw;
+    }
+    
+    
+}

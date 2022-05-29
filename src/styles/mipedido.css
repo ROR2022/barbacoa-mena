@@ -1,0 +1,49 @@
+
+
+.miped-cont
+{
+    max-width: 95%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 2vw;
+    box-shadow: 0 0 2vw .5vw #A04000;
+    position: relative;
+    background: transparent;
+}
+.pedido
+{
+    font: bold 5vw cursive;
+    color: #641E16;
+    margin-top: -1vw;
+    text-align: center;
+}
+.cliente
+{
+    font: bold 6vw cursive;
+    color: #ffc300;
+    margin-top: -5vw;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FF0000;
+}
+
+.orden
+{
+    color: #999;
+    background: #3e3f46;
+    text-transform: uppercase;
+    margin-top: -5vw;
+    font-size: 4vw;
+    text-align: center;
+    border-radius: 2vw;
+}
+
+.miboton2
+{
+    margin-left: 8vw;
+    margin-top: 0vw;
+    color: #999;
+    font-size: 4vw;
+    background: #3e3f46;
+    text-transform: uppercase;
+    
+}
