@@ -54,6 +54,8 @@ const Pedido = () => {
             tac.value=0;
             return
         }
+        if (etq==="nombre" && e.target.value==="") return; 
+        
         let nom = e.target.name;
         let inp = document.getElementById(etq);
         let lbl = document.getElementById(nom);
