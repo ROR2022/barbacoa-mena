@@ -55,9 +55,9 @@ const Mipedido = ({data}) => {
             {kilos>0 && <h3 className='orden'> {kilos} kilos ::$ {kilos*360}</h3>}
             {medios>0 && <h3 className='orden'> {medios} medios ::$ {medios*180}</h3>}
             {cuartos>0 && <h3 className='orden'> {cuartos} cuartos ::$ {cuartos*90}</h3>}
-            {agua>0 && <h3 className='orden'> {agua} agua ::$ {agua*90}</h3>}
-            {refresco>0 && <h3 className='orden'> {refresco} refresco ::$ {refresco*90}</h3>}
-            {cerveza>0 && <h3 className='orden'> {cerveza} cerveza ::$ {cerveza*90}</h3>}
+            {agua>0 && <h3 className='orden'> {agua} agua ::$ {agua*15}</h3>}
+            {refresco>0 && <h3 className='orden'> {refresco} refresco ::$ {refresco*20}</h3>}
+            {cerveza>0 && <h3 className='orden'> {cerveza} cerveza ::$ {cerveza*25}</h3>}
 
             <h3 className='cliente'>total:${sub}.00</h3>
 
