@@ -12,7 +12,20 @@ const Mipedido = ({data}) => {
   
   const enviarOrden = ()=>{
 
-        const url = 'https://api.whatsapp.com/';
+      function isMobile() {
+        if (sessionStorage.desktop)
+            return false;
+        else if (localStorage.mobile)
+            return true;
+        var mobile = ['iphone', 'ipad', 'android', 'blackberry', 'nokia', 'opera mini', 'windows mobile', 'windows phone', 'iemobile'];
+        for (let i in mobile)
+            if (navigator.userAgent.toLowerCase().indexOf(mobile[i].toLowerCase()) > 0) return true;
+        return false;
+      }
+      const is_mobile = isMobile();
+      
+
+        const url = is_mobile ? 'whatsapp://' : 'https://api.whatsapp.com/';
         const telefono = '5217621163871';
 
         let pedido='';
