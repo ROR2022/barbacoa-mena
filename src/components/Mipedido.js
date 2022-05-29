@@ -12,7 +12,7 @@ const Mipedido = ({data}) => {
   
   const enviarOrden = ()=>{
 
-        const url = 'https://web.whatsapp.com/';
+        const url = 'https://api.whatsapp.com/';
         const telefono = '5217621163871';
 
         let pedido='';
