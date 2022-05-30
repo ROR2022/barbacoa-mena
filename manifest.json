@@ -4,37 +4,37 @@
   "background_color": "#641E1680",
   "icons": [
     {
-      "src": "icono512x524.png",
-      "sizes": "512x524",
+      "src": "icono512x512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icono440x450.png",
-      "sizes": "440x450",
+      "src": "icono440x440.png",
+      "sizes": "440x440",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icono320x327.png",
-      "sizes": "320x327",
+      "src": "icono320x320.png",
+      "sizes": "320x320",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icono256x261.png",
-      "sizes": "256x261",
+      "src": "icono256x256.png",
+      "sizes": "256x256",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icono144x147.png",
-      "sizes": "144x147",
+      "src": "icono144x144.png",
+      "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo64x65.png",
+      "src": "logo64x64.png",
       "sizes": "64x65",
       "type": "image/png",
       "purpose": "any"
