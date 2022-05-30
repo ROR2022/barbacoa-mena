@@ -78,7 +78,7 @@ const Mipedido = ( { data, limpiarForm } ) => {
             {sub>0 && 
             <div className='botones1'>
                 <button className='miboton2' onClick={enviarOrden}>enviar orden</button>
-                <button className='miboton2' onClick={()=>limpiarForm()}>limpiar orden</button>
+                <button className='miboton2' onClick={()=>window.location.reload()}>limpiar orden</button>
             </div>
             }
 
