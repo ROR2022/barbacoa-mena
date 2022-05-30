@@ -39,10 +39,11 @@ const Pedido = () => {
     
     const ocultar = (e) =>{
         let etq = e.target.id;
-        if (etq === "sele1" || etq === "sele2"){
+
+        if (etq==="sele1" && e.target.value==="tp") return;
+        if (etq === "sele1"){
             let inp = document.getElementById(etq);
             inp.style.display= "none";
-            if (etq==='sele2') inp.value="s";
             return
         }
         if( etq==='tacos'){
@@ -56,7 +57,7 @@ const Pedido = () => {
         }
         if (etq==="nombre" && e.target.value==="") return;
         if (etq==="domicilio" && e.target.vaue==="") return;
-        if (etq==="sele1" && e.target.value==="tp") return; 
+         
         
         let nom = e.target.name;
         let inp = document.getElementById(etq);
