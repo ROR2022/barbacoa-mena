@@ -12,5 +12,6 @@
   "scope": "./",
   "display": "standalone",
   "theme_color": "#641E16",
-  "background_color": "#641E1680"
+  "background_color": "#641E1680",
+  "id":"/barbacoa-mena/?utm_source=web_app_manifest"
 }
