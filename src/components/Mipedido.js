@@ -42,7 +42,7 @@ const Mipedido = ( { data, limpiarForm } ) => {
 
         let mensaje = `send?phone=${telefono}
                     &text=Hola soy:%0A${nombre}
-                    %0Ami servivicio es:%0A${tipo}`;
+                    %0Ami servicio es:%0A${tipo}`;
 
         if(domicilio!=='') mensaje+= `%0Ami domicilio es: %0A${domicilio}`;
 
