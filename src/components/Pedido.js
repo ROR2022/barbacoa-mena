@@ -63,7 +63,9 @@ const Pedido = () => {
            lbl.style.display= "none";
    }
    
-    
+    const limpiarForm = ()=> {
+        setForm(initialForm);
+    }
     
 
     const seleccion1 = (e)=>{
@@ -91,15 +93,6 @@ const Pedido = () => {
             })
         }
     }
-
-    
-    
-
-    
-        
-    
-
-    
 
   return (
       <div>
@@ -167,7 +160,7 @@ const Pedido = () => {
                 </h3>
                 
             </form>
-            {form.nombre.length>2 && <Mipedido data={form}/>}
+            {form.nombre.length>2 && <Mipedido data={form} limpiarForm={limpiarForm} />}
           </div>
       </div>
     

@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import '../styles/mipedido.css'
 
-const Mipedido = ({data}) => {
+const Mipedido = ( { data, limpiarForm } ) => {
   const [sub, setSub]=useState(0);
   const {nombre,tipo,tacos,kilos,medios,cuartos,ordenes,platillos,domicilio,agua,refresco,cerveza}=data;
   
@@ -75,7 +75,13 @@ const Mipedido = ({data}) => {
 
             <h3 className='cliente'>total:${sub}.00</h3>
 
-            {sub>0 && <button className='miboton2' onClick={enviarOrden}>enviar orden</button>}
+            {sub>0 && 
+            <div className='botones1'>
+                <button className='miboton2' onClick={enviarOrden}>enviar orden</button>
+                <button className='miboton2' onClick={()=>limpiarForm()}>limpiar orden</button>
+            </div>
+            }
+
     </div>
   )
 }

@@ -37,13 +37,17 @@
     border-radius: 2vw;
 }
 
+.botones1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .miboton2
 {
-    margin-left: 8vw;
+    margin-left: 1vw;
     margin-top: 0vw;
     color: #999;
     font-size: 4vw;
     background: #3e3f46;
     text-transform: uppercase;
-    
 }
