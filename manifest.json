@@ -1,9 +1,10 @@
 {
   "short_name": "Barbacoa Mena",
   "name": "Barbacoa de Puerco Mena",
+  "background_color": "#641E1680",
   "icons": [
     {
-      "src": "logo1.ico",
+      "src": "logoico.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
@@ -12,6 +13,6 @@
   "scope": "./",
   "display": "standalone",
   "theme_color": "#641E16",
-  "background_color": "#641E1680",
+  
   "id":"/barbacoa-mena/?mode=pwa"
 }
