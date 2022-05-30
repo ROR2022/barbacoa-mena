@@ -12,7 +12,7 @@ const Galeria = () => {
     <div className='main-cont2'>
 
       {images.map(el=>
-            <img key={el.id} onClick={(e)=>window.open(e.target.src)} className={el.alias} src={el.url} alt=''/>
+            <img key={el.id} onClick={(e)=>window.location.href=e.target.src} className={el.alias} src={el.url} alt=''/>
         )}
       
       </div>
