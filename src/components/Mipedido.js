@@ -37,7 +37,7 @@ const Mipedido = ({data}) => {
         if(cuartos>0) pedido+= `%0A ${cuartos} cuartos %0A`;
         if(agua>0) pedido+= `%0A ${agua} agua %0A`;
         if(refresco>0) pedido+= `%0A ${refresco} refresco %0A`;
-        if(cerveza>0) pedido+= `%0A ${cerveza} cereveza %0A`;
+        if(cerveza>0) pedido+= `%0A ${cerveza} cerveza %0A`;
 
 
         let mensaje = `send?phone=${telefono}
@@ -49,8 +49,9 @@ const Mipedido = ({data}) => {
             mensaje+= `%0Ami pedido es:%0A${pedido}
                     %0Ami sub-total es:%0A$${sub}.00`;
 
-        window.open(url + mensaje);
-        window.location.reload();
+        window.location.href = url + mensaje;
+       /*  window.open(url + mensaje);
+        window.location.reload(); */
   }
   
   return (
