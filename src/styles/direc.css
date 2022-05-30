@@ -20,7 +20,7 @@
 
 @media screen and (min-width:530px){
     .direc-cont{
-        margin-top: 30vw;
+        margin-top: 20vw;
     }
     
     
@@ -28,7 +28,7 @@
 
 @media screen and (min-width:800px){
     .direc-cont{
-        margin-top: 40vw;
+        margin-top: 25vw;
     }
     
     
@@ -36,7 +36,7 @@
 
 @media screen and (min-width:1100px){
     .direc-cont{
-        margin-top: 50vw;
+        margin-top: 30vw;
     }
     
     
