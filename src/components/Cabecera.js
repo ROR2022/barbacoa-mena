@@ -41,7 +41,7 @@ const Cabecera = () => {
                 <h2 className="subtitulo">La mejor Barbacoa de Puerco</h2>
                 <h3 className="horario">Lun-Dom 5:30pm-10:30pm</h3>
                 {isReadyForInstall && (
-                  <button className="descarga" onClick={downloadApp}> Descargar </button>
+                  <button className="descarga" onClick={downloadApp}> Instalar </button>
                   )}
     </div>
   )
