@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/barbacoa-mena/static/css/main.24fece84.css",
-    "main.js": "/barbacoa-mena/static/js/main.4b2ac3ae.js",
+    "main.js": "/barbacoa-mena/static/js/main.0b588bc7.js",
     "static/js/787.0868b016.chunk.js": "/barbacoa-mena/static/js/787.0868b016.chunk.js",
     "service-worker.js": "/barbacoa-mena/service-worker.js",
     "index.html": "/barbacoa-mena/index.html",
     "main.24fece84.css.map": "/barbacoa-mena/static/css/main.24fece84.css.map",
-    "main.4b2ac3ae.js.map": "/barbacoa-mena/static/js/main.4b2ac3ae.js.map",
+    "main.0b588bc7.js.map": "/barbacoa-mena/static/js/main.0b588bc7.js.map",
     "787.0868b016.chunk.js.map": "/barbacoa-mena/static/js/787.0868b016.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24fece84.css",
-    "static/js/main.4b2ac3ae.js"
+    "static/js/main.0b588bc7.js"
   ]
 }
