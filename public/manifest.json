@@ -10,8 +10,38 @@
       "purpose": "any"
     },
     {
+      "src": "milogoico2.png",
+      "sizes": "546x559",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "logo144.png",
       "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo36x37.png",
+      "sizes": "36x37",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo104x106.png",
+      "sizes": "104x106",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo173x177.png",
+      "sizes": "173x177",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "logo263x269.png",
+      "sizes": "263x269",
       "type": "image/png",
       "purpose": "any"
     }
