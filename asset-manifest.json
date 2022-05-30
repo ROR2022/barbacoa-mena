@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/barbacoa-mena/static/css/main.8d1d3d54.css",
-    "main.js": "/barbacoa-mena/static/js/main.26a262c8.js",
+    "main.css": "/barbacoa-mena/static/css/main.615d74d5.css",
+    "main.js": "/barbacoa-mena/static/js/main.b25414e1.js",
     "static/js/787.0868b016.chunk.js": "/barbacoa-mena/static/js/787.0868b016.chunk.js",
     "service-worker.js": "/barbacoa-mena/service-worker.js",
     "index.html": "/barbacoa-mena/index.html",
-    "main.8d1d3d54.css.map": "/barbacoa-mena/static/css/main.8d1d3d54.css.map",
-    "main.26a262c8.js.map": "/barbacoa-mena/static/js/main.26a262c8.js.map",
+    "main.615d74d5.css.map": "/barbacoa-mena/static/css/main.615d74d5.css.map",
+    "main.b25414e1.js.map": "/barbacoa-mena/static/js/main.b25414e1.js.map",
     "787.0868b016.chunk.js.map": "/barbacoa-mena/static/js/787.0868b016.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d1d3d54.css",
-    "static/js/main.26a262c8.js"
+    "static/css/main.615d74d5.css",
+    "static/js/main.b25414e1.js"
   ]
 }
