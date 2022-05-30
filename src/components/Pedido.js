@@ -39,17 +39,13 @@ const Pedido = () => {
     
     const ocultar = (e) =>{
         let etq = e.target.id;
-
-        
         if (etq === "sele1"){
             if (e.target.value==="tp") return;
             let inp = document.getElementById(etq);
             inp.style.display= "none";
             return
         }
-        if( etq==='tacos'){
-            
-            
+        if( etq==='tacos'){   
             let inp= document.getElementById('mistacos');
             inp.style.display= 'none';
             let tac= document.getElementById('tacos');
@@ -83,18 +79,21 @@ const Pedido = () => {
                 ...form,
                 tipo: "A Domicilio"
             })
+            ocultar(e);
         }
         if (op==="pl"){
             setForm({
                 ...form,
                 tipo: "Para Llevar"
             })
+            ocultar(e);
         }
         if (op==="pc"){
             setForm({
                 ...form,
                 tipo: "Para Comer en el Local"
             })
+            ocultar(e);
         }
     }
 
