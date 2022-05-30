@@ -4,52 +4,46 @@
   "background_color": "#641E1680",
   "icons": [
     {
-      "src": "logoico.png",
-      "sizes": "585x572",
+      "src": "icono512x524.png",
+      "sizes": "512x524",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "milogoico2.png",
-      "sizes": "546x559",
+      "src": "icono440x450.png",
+      "sizes": "440x450",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo144.png",
-      "sizes": "144x144",
+      "src": "icono320x327.png",
+      "sizes": "320x327",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo36x37.png",
-      "sizes": "36x37",
+      "src": "icono256x261.png",
+      "sizes": "256x261",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo104x106.png",
-      "sizes": "104x106",
+      "src": "icono144x147.png",
+      "sizes": "144x147",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo173x177.png",
-      "sizes": "173x177",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "logo263x269.png",
-      "sizes": "263x269",
+      "src": "logo64x65.png",
+      "sizes": "64x65",
       "type": "image/png",
       "purpose": "any"
     }
+    
   ],
   "start_url": "./?mode=pwa",
   "scope": "./",
   "display": "standalone",
   "theme_color": "#641E16",
-  
   "id":"/barbacoa-mena/?mode=pwa"
 }
