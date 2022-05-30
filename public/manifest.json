@@ -8,10 +8,10 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "./?utm_source=web_app_manifest",
+  "start_url": "./?mode=pwa",
   "scope": "./",
   "display": "standalone",
   "theme_color": "#641E16",
   "background_color": "#641E1680",
-  "id":"/barbacoa-mena/?utm_source=web_app_manifest"
+  "id":"/barbacoa-mena/?mode=pwa"
 }
