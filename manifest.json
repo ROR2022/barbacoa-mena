@@ -7,7 +7,13 @@
       "src": "logoico.png",
       "sizes": "585x572",
       "type": "image/png",
-      "purpose": "any "
+      "purpose": "any"
+    },
+    {
+      "src": "logo144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "start_url": "./?mode=pwa",
