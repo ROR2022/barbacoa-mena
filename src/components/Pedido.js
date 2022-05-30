@@ -40,7 +40,7 @@ const Pedido = () => {
     const ocultar = (e) =>{
         let etq = e.target.id;
         if (etq === "sele1"){
-            if (e.target.value==="tp") return;
+            if (e.target.value==="tp" && form.tipo==="") return;
             let inp = document.getElementById(etq);
             inp.style.display= "none";
             return
